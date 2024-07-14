@@ -1,6 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Mooli&display=swap');
 
 * {
-    /* font-family: 'Cormorant Garamond', serif; */
-    font-family: 'Mooli', sans-serif;
+      /* font-family: 'Cormorant Garamond', serif; */
+      font-family: 'Mooli', sans-serif;
+}
+
+.logo {
+      height: 65px;
+}
+
+#cloud {
+      background-image: url("./assets/Cloud.jpg");
+      background-size: cover;
+      background-position: center;
+      object-fit: cover;
+}
+
+#logo {
+      position: fixed;
+      top: 0px;
+      z-index: 1;
+}
+
+#trending {
+      margin-top: 90px;
+}
+
+#newsbox {
+      width: 100%;
+}
+
+/* 
+#nlog{
+       background-image:url("./assets/Cloud.jpg") ;
+       width:30px;
+       border-radius: 50px;
+       background-color: yellowgreen;
+} */
+
+#coin {
+      background-image: url(./assets/coin-3.jpg);
+      background-position: center;
+      background-size: cover;
+
+}
+
+#read {
+      /* background-color: black; */
+      position: absolute;
+      bottom: 0%;
+      width: 185px;
+
+
 }

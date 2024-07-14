@@ -24,17 +24,15 @@ const WeatherForm = () => {
 
     }
 
-   
-
     return (
-        <form className='my-3 d-flex justify-content-center' onSubmit={handleSave}>
+        <form className='my-3 d-flex justify-content-center  ' onSubmit={handleSave}>
             <input type="text"
                 placeholder='Enter City Name'
-                className="form-control rounded-0 w-50"
+                className="form-control rounded-2 w-50"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
             />
-            <button className="btn btn-success float-end rounded-0">Search</button>
+            <button className="btn btn-success float-end rounded-2">Search</button>
         </form>
     )
 }
